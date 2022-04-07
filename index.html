@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Pseudoelementos - Aula 17</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <form>
+            <h1>Adicionar seu super-herói</h1>
+            <h2>Adicione seu personagem favorito completando as informações</h2>
+
+            <div class="section1">
+                <div>
+                    <label for="nome">Nome</label> <br>
+                    <input class="input" type="text" id="nome">
+                </div>
+                <div>
+                    <label for="especie">Espécie</label> <br>
+                    <select class="input" type="text" id="especie">
+                        <option value="">Humano</option>
+                        <option value="">Inumano</option>
+                        <option value="">Asgardiano</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="section2">
+                <div>
+                    <label for="data">Data de Nascimento</label> <br>
+                    <input class="input" type="date" id="data">
+                </div>
+                <div>
+                    <label for="foto">Adicionar Foto</label> <br>
+                    <input class="input" type="file" id="foto">
+
+                </div>
+            </div>
+
+            <div class="section3">
+                <div>
+                    <textarea class="input" placeholder="Descrição"></textarea>
+                </div>
+                <div class="coluna2">
+                    <h2>Poderes</h2>
+                    <div>
+                        <input class="input" type="checkbox" id="voar">
+                        <label for="voar">Voar</label>
+                    </div>
+                    <div>
+                        <input class="input" type="checkbox" id="superInteligencia">
+                        <label for="superInteligencia">Super Inteligência</label>
+                    </div>
+                    <div>
+                        <input class="input" type="checkbox" id="vistaDeRaioLase">
+                        <label for="vistaDeRaioLase">Vista de raio laser</label>
+                    </div>
+                    <div>
+                        <input class="input" type="checkbox" id="superRico">
+                        <label for="superRico">Super rico</label>
+                    </div>
+                    <div class="divisor">
+
+                    </div>
+
+                    <h2>Tipo de personagem</h2>
+                    <div>
+                        <input class="input" type="radio" id="heroi">
+                        <label for="heroi">Herói / Heroína</label>
+                    </div>
+                    <div>
+                        <input class="input" type="radio" id="vilao">
+                        <label for="vilao">Vilão / Vilã</label>
+                    </div>
+
+                </div>
+            </div>
+
+            <button>Adicionar</button>
+        </form>
+
+    </main>
+</body>
+
+</html>
